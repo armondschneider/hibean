@@ -13,7 +13,7 @@ struct ChatAssistantApp: App {
 
     var body: some Scene {
         WindowGroup {
-            EmptyView() 
+            ContentView()
         }
     }
 }

@@ -6,54 +6,81 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var messages: [Message] = [Message(text: "What can I do for you?", isUser: false)]
+    @State private var inputText: String = ""
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+        VStack {
+            ScrollView {
+                VStack(alignment: .leading) {
+                    ForEach(messages) { message in
+                        HStack {
+                            if message.isUser {
+                                Spacer()
+                                Text(message.text)
+                                    .padding()
+                                    .background(Color.blue.opacity(0.8))
+                                    .foregroundColor(.white)
+                                    .cornerRadius(12)
+                                    .padding(.horizontal)
+                            } else {
+                                Text(message.text)
+                                    .padding()
+                                    .background(Color.gray.opacity(0.2))
+                                    .cornerRadius(12)
+                                    .padding(.horizontal)
+                                Spacer()
+                            }
+                        }
                     }
                 }
-                .onDelete(perform: deleteItems)
             }
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-            .toolbar {
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+            .frame(maxHeight: .infinity)
+            
+            HStack {
+                TextField("Type a message...", text: $inputText)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(minHeight: 30)
+                
+                Button(action: sendMessage) {
+                    Text("Send")
                 }
+                .padding(.horizontal)
             }
-        } detail: {
-            Text("Select an item")
+            .padding()
         }
+        .frame(width: 400, height: 500)
+        .background(Color.white)
     }
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+    private func sendMessage() {
+        let trimmedMessage = inputText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmedMessage.isEmpty else { return }
+        
+        // Add the user's message
+        messages.append(Message(text: trimmedMessage, isUser: true))
+        
+        // Simulate a response (this can later be replaced with actual AI responses)
+        let responseText = "Using AppleScript"
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            messages.append(Message(text: responseText, isUser: false))
         }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
+        
+        // Clear the input field
+        inputText = ""
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct Message: Identifiable {
+    let id = UUID()
+    let text: String
+    let isUser: Bool
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
