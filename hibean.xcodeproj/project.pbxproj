@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		995928D62CC4974D0030FBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995928BA2CC4974C0030FBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995928C12CC4974C0030FBDD;
+			remoteInfo = hibean;
+		};
+		995928E02CC4974D0030FBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995928BA2CC4974C0030FBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995928C12CC4974C0030FBDD;
+			remoteInfo = hibean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995928C22CC4974C0030FBDD /* hibean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hibean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		995928D52CC4974D0030FBDD /* hibeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hibeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		995928DF2CC4974D0030FBDD /* hibeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hibeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		995928C42CC4974C0030FBDD /* hibean */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hibean;
+			sourceTree = "<group>";
+		};
+		995928D82CC4974D0030FBDD /* hibeanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hibeanTests;
+			sourceTree = "<group>";
+		};
+		995928E22CC4974D0030FBDD /* hibeanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hibeanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995928BF2CC4974C0030FBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928D22CC4974D0030FBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928DC2CC4974D0030FBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995928B92CC4974C0030FBDD = {
+			isa = PBXGroup;
+			children = (
+				995928C42CC4974C0030FBDD /* hibean */,
+				995928D82CC4974D0030FBDD /* hibeanTests */,
+				995928E22CC4974D0030FBDD /* hibeanUITests */,
+				995928C32CC4974C0030FBDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		995928C32CC4974C0030FBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995928C22CC4974C0030FBDD /* hibean.app */,
+				995928D52CC4974D0030FBDD /* hibeanTests.xctest */,
+				995928DF2CC4974D0030FBDD /* hibeanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		995928C12CC4974C0030FBDD /* hibean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995928E92CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibean" */;
+			buildPhases = (
+				995928BE2CC4974C0030FBDD /* Sources */,
+				995928BF2CC4974C0030FBDD /* Frameworks */,
+				995928C02CC4974C0030FBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				995928C42CC4974C0030FBDD /* hibean */,
+			);
+			name = hibean;
+			packageProductDependencies = (
+			);
+			productName = hibean;
+			productReference = 995928C22CC4974C0030FBDD /* hibean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		995928D42CC4974D0030FBDD /* hibeanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995928EC2CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibeanTests" */;
+			buildPhases = (
+				995928D12CC4974D0030FBDD /* Sources */,
+				995928D22CC4974D0030FBDD /* Frameworks */,
+				995928D32CC4974D0030FBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995928D72CC4974D0030FBDD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				995928D82CC4974D0030FBDD /* hibeanTests */,
+			);
+			name = hibeanTests;
+			packageProductDependencies = (
+			);
+			productName = hibeanTests;
+			productReference = 995928D52CC4974D0030FBDD /* hibeanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		995928DE2CC4974D0030FBDD /* hibeanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995928EF2CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibeanUITests" */;
+			buildPhases = (
+				995928DB2CC4974D0030FBDD /* Sources */,
+				995928DC2CC4974D0030FBDD /* Frameworks */,
+				995928DD2CC4974D0030FBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995928E12CC4974D0030FBDD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				995928E22CC4974D0030FBDD /* hibeanUITests */,
+			);
+			name = hibeanUITests;
+			packageProductDependencies = (
+			);
+			productName = hibeanUITests;
+			productReference = 995928DF2CC4974D0030FBDD /* hibeanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995928BA2CC4974C0030FBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					995928C12CC4974C0030FBDD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					995928D42CC4974D0030FBDD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 995928C12CC4974C0030FBDD;
+					};
+					995928DE2CC4974D0030FBDD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 995928C12CC4974C0030FBDD;
+					};
+				};
+			};
+			buildConfigurationList = 995928BD2CC4974C0030FBDD /* Build configuration list for PBXProject "hibean" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 995928B92CC4974C0030FBDD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 995928C32CC4974C0030FBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995928C12CC4974C0030FBDD /* hibean */,
+				995928D42CC4974D0030FBDD /* hibeanTests */,
+				995928DE2CC4974D0030FBDD /* hibeanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995928C02CC4974C0030FBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928D32CC4974D0030FBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928DD2CC4974D0030FBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995928BE2CC4974C0030FBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928D12CC4974D0030FBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995928DB2CC4974D0030FBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995928D72CC4974D0030FBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995928C12CC4974C0030FBDD /* hibean */;
+			targetProxy = 995928D62CC4974D0030FBDD /* PBXContainerItemProxy */;
+		};
+		995928E12CC4974D0030FBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995928C12CC4974C0030FBDD /* hibean */;
+			targetProxy = 995928E02CC4974D0030FBDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		995928E72CC4974D0030FBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		995928E82CC4974D0030FBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		995928EA2CC4974D0030FBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hibean/hibean.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hibean/Preview Content\"";
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		995928EB2CC4974D0030FBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hibean/hibean.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hibean/Preview Content\"";
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		995928ED2CC4974D0030FBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hibean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hibean";
+			};
+			name = Debug;
+		};
+		995928EE2CC4974D0030FBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hibean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hibean";
+			};
+			name = Release;
+		};
+		995928F02CC4974D0030FBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hibean;
+			};
+			name = Debug;
+		};
+		995928F12CC4974D0030FBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKJNPJ67XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.armond.hibeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hibean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		995928BD2CC4974C0030FBDD /* Build configuration list for PBXProject "hibean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995928E72CC4974D0030FBDD /* Debug */,
+				995928E82CC4974D0030FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995928E92CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995928EA2CC4974D0030FBDD /* Debug */,
+				995928EB2CC4974D0030FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995928EC2CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibeanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995928ED2CC4974D0030FBDD /* Debug */,
+				995928EE2CC4974D0030FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995928EF2CC4974D0030FBDD /* Build configuration list for PBXNativeTarget "hibeanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995928F02CC4974D0030FBDD /* Debug */,
+				995928F12CC4974D0030FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995928BA2CC4974C0030FBDD /* Project object */;
+}
